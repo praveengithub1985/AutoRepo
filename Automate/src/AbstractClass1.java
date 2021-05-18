@@ -19,6 +19,10 @@ abstract class SuperClass
 	{
 		System.out.println("This is a Concrete Method");
 	}
+	void eclipse1()
+	{
+		System.out.println("This is a Concrete Method");
+	}
 	void git()
 	{
 		System.out.println("This is a Concrete Method");
