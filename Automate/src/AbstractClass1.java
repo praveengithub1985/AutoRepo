@@ -5,7 +5,7 @@ abstract class SuperClass
 	abstract int sumOfThree(int a, int b, int c);
 	void disp()
 	{
-		System.out.println("This is a Concrete Method disp");
+		System.out.println("Eclipse Update");
 	}		
 }
 public class AbstractClass1 extends SuperClass
