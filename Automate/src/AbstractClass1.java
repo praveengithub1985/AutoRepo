@@ -7,7 +7,7 @@ abstract class SuperClass
 	{
 		System.out.println("This is a Concrete Method");
 	}					
-	void eclipse()
+	void remote()
 	{
 		System.out.println("This is a Concrete Method");
 	}		
