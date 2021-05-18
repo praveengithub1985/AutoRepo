@@ -6,11 +6,7 @@ abstract class SuperClass
 	void disp()
 	{
 		System.out.println("This is a Concrete Method");
-	}	
-	void remote()
-	{
-		System.out.println("This is a Concrete Method");
-	}	
+	}		
 	void eclipse()
 	{
 		System.out.println("This is a Concrete Method");
