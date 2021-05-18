@@ -2,6 +2,6 @@ class SuperClass
 {
 	void disp()
 	{
-		System.out.println("Hello");
+		System.out.println("Praveen");
 	}		
 }
