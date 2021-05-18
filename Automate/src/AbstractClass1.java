@@ -6,23 +6,7 @@ abstract class SuperClass
 	void disp()
 	{
 		System.out.println("This is a Concrete Method");
-	}	
-	void eclise()
-	{
-		System.out.println("This is a Concrete Method");
-	}					
-	void remote()
-	{
-		System.out.println("This is a Concrete Method");
-	}
-	void ecliseNew()
-	{
-		System.out.println("This is a Concrete Method");
-	}	
-	void remoteNew()
-	{
-		System.out.println("This is a Concrete Method");
-	}
+	}		
 }
 public class AbstractClass1 extends SuperClass
 {
