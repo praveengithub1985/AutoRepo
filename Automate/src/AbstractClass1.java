@@ -10,11 +10,7 @@ abstract class SuperClass
 	void remote()
 	{
 		System.out.println("This is a Concrete Method");
-	}	
-	void eclipse()
-	{
-		System.out.println("This is a Concrete Method");
-	}		
+	}				
 }
 public class AbstractClass1 extends SuperClass
 {
