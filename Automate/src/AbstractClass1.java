@@ -18,7 +18,11 @@ abstract class SuperClass
 	void ecliseNew()
 	{
 		System.out.println("This is a Concrete Method");
-	}				
+	}	
+	void remoteNew()
+	{
+		System.out.println("This is a Concrete Method");
+	}
 }
 public class AbstractClass1 extends SuperClass
 {
