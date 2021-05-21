@@ -1,0 +1,4 @@
+# Created at 2021-05-17T13:35:37.592
+Boot Manifest-JAR contains absolute paths in classpath 'F:\SeleniumRevisit\Gmail\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
