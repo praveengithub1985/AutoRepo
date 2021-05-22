@@ -7,7 +7,7 @@ public class MavenTest1
 	@Test 
 	public void testPrint1()
 	{
-		System.out.println("testPrint1 updated");	
+		System.out.println("testPrint1");	
 	}
 	@Test 
 	public void testPrint2()
