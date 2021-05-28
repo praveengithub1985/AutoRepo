@@ -3,6 +3,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -37,10 +38,10 @@ public class MavenTest1
 	@Test
 	public void browser() throws InterruptedException
 	{
-		String key="webdriver.chrome.driver";
-		String value="F:/SeleniumRevisit/SeleniumTraining/Drivers/chromedriver.exe";
+		String key="webdriver.gecko.driver";
+		String value="F:/SeleniumRevisit/SeleniumTraining/Drivers/geckodriver.exe";
 		System.setProperty(key,value);
-		WebDriver driver=new ChromeDriver();
+		WebDriver driver=new FirefoxDriver();
 		driver.get("https://Google.com");
 		Thread.sleep(1500);
 		WebElement e=driver.findElement(By.xpath("//input[@clas='gLFyf gsfi']"));
