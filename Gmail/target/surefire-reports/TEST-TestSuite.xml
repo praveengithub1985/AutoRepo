@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="12.419" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="54.367" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="webdriver.chrome.driver" value="F:/SeleniumRevisit/SeleniumTraining/Drivers/chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\ADMIN\git\AutoRepo\Gmail\target\test-classes;C:\Users\ADMIN\git\AutoRepo\Gmail\target\classes;C:\Users\ADMIN\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\ADMIN\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\ADMIN\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\ADMIN\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\ADMIN\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ADMIN\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\ADMIN\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ADMIN\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ADMIN\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ADMIN\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ADMIN\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ADMIN\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\ADMIN\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
@@ -19,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\ADMIN\AppData\Local\Temp\surefire3600732637422879397\surefirebooter4517232169421563946.jar C:\Users\ADMIN\AppData\Local\Temp\surefire3600732637422879397 2021-05-28T00-32-55_419-jvmRun1 surefire1152008690560545064tmp surefire_08474094946877114750tmp"/>
+    <property name="sun.java.command" value="C:\Users\ADMIN\AppData\Local\Temp\surefire8450431461494892377\surefirebooter3026769465264445455.jar C:\Users\ADMIN\AppData\Local\Temp\surefire8450431461494892377 2021-05-28T10-49-51_194-jvmRun1 surefire8807034175476023985tmp surefire_0751799352767388321tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\ADMIN\git\AutoRepo\Gmail\target\test-classes;C:\Users\ADMIN\git\AutoRepo\Gmail\target\classes;C:\Users\ADMIN\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\ADMIN\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\ADMIN\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\ADMIN\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\ADMIN\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\ADMIN\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ADMIN\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\ADMIN\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ADMIN\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ADMIN\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ADMIN\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ADMIN\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ADMIN\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\ADMIN\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ADMIN"/>
@@ -32,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ADMIN\AppData\Local\Temp\surefire3600732637422879397\surefirebooter4517232169421563946.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMIN\AppData\Local\Temp\surefire8450431461494892377\surefirebooter3026769465264445455.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -50,6 +49,7 @@
     <property name="java.version" value="1.8.0_211"/>
     <property name="user.dir" value="C:\Users\ADMIN\git\AutoRepo\Gmail"/>
     <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="F:/SeleniumRevisit/SeleniumTraining/Drivers/geckodriver.exe"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
@@ -61,53 +61,58 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="browser" classname="MavenDemo.MavenTest1" time="10.852">
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 34118
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1622179981.235][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
-May 28, 2021 12:33:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+  <testcase name="browser" classname="MavenDemo.MavenTest1" time="53.088">
+    <system-out><![CDATA[Inside Browser Method
+]]></system-out>
+    <system-err><![CDATA[1622216996246	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMIN\\AppData\\Local\\Temp\\rust_mozprofileeuNcdL"
+1622216999828	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1622217036703	Marionette	INFO	Listening on port 64096
+1622217038260	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 28, 2021 10:50:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="testPrint1" classname="MavenDemo.MavenTest1" time="0.011">
+  <testcase name="testPrint1" classname="MavenDemo.MavenTest1" time="0">
     <system-out><![CDATA[testPrint1 Karthick Praveen
 ]]></system-out>
   </testcase>
-  <testcase name="testPrint2" classname="MavenDemo.MavenTest1" time="0">
+  <testcase name="testPrint2" classname="MavenDemo.MavenTest1" time="0.002">
     <system-out><![CDATA[testPrint2
 ]]></system-out>
   </testcase>
-  <testcase name="testPrint3" classname="MavenDemo.MavenTest1" time="0">
+  <testcase name="testPrint3" classname="MavenDemo.MavenTest1" time="0.024">
     <system-out><![CDATA[testPrint3
 ]]></system-out>
   </testcase>
-  <testcase name="testPrint4" classname="MavenDemo.MavenTest1" time="0.002">
+  <testcase name="testPrint4" classname="MavenDemo.MavenTest1" time="0.001">
     <system-out><![CDATA[testPrint4
 ]]></system-out>
   </testcase>
-  <testcase name="testPrint5" classname="MavenDemo.MavenTest1" time="0.001">
+  <testcase name="testPrint5" classname="MavenDemo.MavenTest1" time="0">
     <system-out><![CDATA[testPrint5
 ]]></system-out>
   </testcase>
-  <testcase name="testPrint1" classname="MavenDemo.MavenTest2" time="0.001">
+  <testcase name="testPrint1" classname="MavenDemo.MavenTest2" time="0">
     <system-out><![CDATA[testPrint1
 ]]></system-out>
   </testcase>
-  <testcase name="testPrint2" classname="MavenDemo.MavenTest2" time="0">
+  <testcase name="testPrint2" classname="MavenDemo.MavenTest2" time="0.002">
     <system-out><![CDATA[testPrint2
 ]]></system-out>
   </testcase>
-  <testcase name="testPrint3" classname="MavenDemo.MavenTest2" time="0">
+  <testcase name="testPrint3" classname="MavenDemo.MavenTest2" time="0.005">
     <system-out><![CDATA[testPrint3
 ]]></system-out>
   </testcase>
-  <testcase name="testPrint4" classname="MavenDemo.MavenTest2" time="0">
+  <testcase name="testPrint4" classname="MavenDemo.MavenTest2" time="0.004">
     <system-out><![CDATA[testPrint4
 ]]></system-out>
   </testcase>
-  <testcase name="testPrint5" classname="MavenDemo.MavenTest2" time="0.002">
+  <testcase name="testPrint5" classname="MavenDemo.MavenTest2" time="0">
     <system-out><![CDATA[testPrint5
 ]]></system-out>
   </testcase>

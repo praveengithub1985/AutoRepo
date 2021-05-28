@@ -2,54 +2,54 @@
 <testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="10904" started-at="2021-05-28T00:32:57 CDT" finished-at="2021-05-28T00:33:08 CDT">
+  <suite name="Suite" duration-ms="53002" started-at="2021-05-28T10:49:53 CDT" finished-at="2021-05-28T10:50:46 CDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="10904" started-at="2021-05-28T00:32:57 CDT" finished-at="2021-05-28T00:33:08 CDT">
+    <test name="Test" duration-ms="53002" started-at="2021-05-28T10:49:53 CDT" finished-at="2021-05-28T10:50:46 CDT">
       <class name="MavenDemo.MavenTest2">
-        <test-method status="PASS" signature="testPrint1()[pri:0, instance:MavenDemo.MavenTest2@67784306]" name="testPrint1" duration-ms="2" started-at="2021-05-28T00:33:08 CDT" finished-at="2021-05-28T00:33:08 CDT">
+        <test-method status="PASS" signature="testPrint1()[pri:0, instance:MavenDemo.MavenTest2@67784306]" name="testPrint1" duration-ms="1" started-at="2021-05-28T10:50:46 CDT" finished-at="2021-05-28T10:50:46 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPrint1 -->
-        <test-method status="PASS" signature="testPrint2()[pri:0, instance:MavenDemo.MavenTest2@67784306]" name="testPrint2" duration-ms="1" started-at="2021-05-28T00:33:08 CDT" finished-at="2021-05-28T00:33:08 CDT">
+        <test-method status="PASS" signature="testPrint2()[pri:0, instance:MavenDemo.MavenTest2@67784306]" name="testPrint2" duration-ms="1" started-at="2021-05-28T10:50:46 CDT" finished-at="2021-05-28T10:50:46 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPrint2 -->
-        <test-method status="PASS" signature="testPrint3()[pri:0, instance:MavenDemo.MavenTest2@67784306]" name="testPrint3" duration-ms="1" started-at="2021-05-28T00:33:08 CDT" finished-at="2021-05-28T00:33:08 CDT">
+        <test-method status="PASS" signature="testPrint3()[pri:0, instance:MavenDemo.MavenTest2@67784306]" name="testPrint3" duration-ms="1" started-at="2021-05-28T10:50:46 CDT" finished-at="2021-05-28T10:50:46 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPrint3 -->
-        <test-method status="PASS" signature="testPrint4()[pri:0, instance:MavenDemo.MavenTest2@67784306]" name="testPrint4" duration-ms="3" started-at="2021-05-28T00:33:08 CDT" finished-at="2021-05-28T00:33:08 CDT">
+        <test-method status="PASS" signature="testPrint4()[pri:0, instance:MavenDemo.MavenTest2@67784306]" name="testPrint4" duration-ms="0" started-at="2021-05-28T10:50:46 CDT" finished-at="2021-05-28T10:50:46 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPrint4 -->
-        <test-method status="PASS" signature="testPrint5()[pri:0, instance:MavenDemo.MavenTest2@67784306]" name="testPrint5" duration-ms="1" started-at="2021-05-28T00:33:08 CDT" finished-at="2021-05-28T00:33:08 CDT">
+        <test-method status="PASS" signature="testPrint5()[pri:0, instance:MavenDemo.MavenTest2@67784306]" name="testPrint5" duration-ms="0" started-at="2021-05-28T10:50:46 CDT" finished-at="2021-05-28T10:50:46 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPrint5 -->
       </class> <!-- MavenDemo.MavenTest2 -->
       <class name="MavenDemo.MavenTest1">
-        <test-method status="PASS" signature="browser()[pri:0, instance:MavenDemo.MavenTest1@6d7b4f4c]" name="browser" duration-ms="10727" started-at="2021-05-28T00:32:57 CDT" finished-at="2021-05-28T00:33:08 CDT">
+        <test-method status="PASS" signature="browser()[pri:0, instance:MavenDemo.MavenTest1@6d7b4f4c]" name="browser" duration-ms="52874" started-at="2021-05-28T10:49:53 CDT" finished-at="2021-05-28T10:50:46 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser -->
-        <test-method status="PASS" signature="testPrint1()[pri:0, instance:MavenDemo.MavenTest1@6d7b4f4c]" name="testPrint1" duration-ms="1" started-at="2021-05-28T00:33:08 CDT" finished-at="2021-05-28T00:33:08 CDT">
+        <test-method status="PASS" signature="testPrint1()[pri:0, instance:MavenDemo.MavenTest1@6d7b4f4c]" name="testPrint1" duration-ms="0" started-at="2021-05-28T10:50:46 CDT" finished-at="2021-05-28T10:50:46 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPrint1 -->
-        <test-method status="PASS" signature="testPrint2()[pri:0, instance:MavenDemo.MavenTest1@6d7b4f4c]" name="testPrint2" duration-ms="3" started-at="2021-05-28T00:33:08 CDT" finished-at="2021-05-28T00:33:08 CDT">
+        <test-method status="PASS" signature="testPrint2()[pri:0, instance:MavenDemo.MavenTest1@6d7b4f4c]" name="testPrint2" duration-ms="1" started-at="2021-05-28T10:50:46 CDT" finished-at="2021-05-28T10:50:46 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPrint2 -->
-        <test-method status="PASS" signature="testPrint3()[pri:0, instance:MavenDemo.MavenTest1@6d7b4f4c]" name="testPrint3" duration-ms="0" started-at="2021-05-28T00:33:08 CDT" finished-at="2021-05-28T00:33:08 CDT">
+        <test-method status="PASS" signature="testPrint3()[pri:0, instance:MavenDemo.MavenTest1@6d7b4f4c]" name="testPrint3" duration-ms="0" started-at="2021-05-28T10:50:46 CDT" finished-at="2021-05-28T10:50:46 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPrint3 -->
-        <test-method status="PASS" signature="testPrint4()[pri:0, instance:MavenDemo.MavenTest1@6d7b4f4c]" name="testPrint4" duration-ms="1" started-at="2021-05-28T00:33:08 CDT" finished-at="2021-05-28T00:33:08 CDT">
+        <test-method status="PASS" signature="testPrint4()[pri:0, instance:MavenDemo.MavenTest1@6d7b4f4c]" name="testPrint4" duration-ms="1" started-at="2021-05-28T10:50:46 CDT" finished-at="2021-05-28T10:50:46 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPrint4 -->
-        <test-method status="PASS" signature="testPrint5()[pri:0, instance:MavenDemo.MavenTest1@6d7b4f4c]" name="testPrint5" duration-ms="1" started-at="2021-05-28T00:33:08 CDT" finished-at="2021-05-28T00:33:08 CDT">
+        <test-method status="PASS" signature="testPrint5()[pri:0, instance:MavenDemo.MavenTest1@6d7b4f4c]" name="testPrint5" duration-ms="0" started-at="2021-05-28T10:50:46 CDT" finished-at="2021-05-28T10:50:46 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPrint5 -->
