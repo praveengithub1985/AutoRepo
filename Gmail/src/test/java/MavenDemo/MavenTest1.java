@@ -47,5 +47,6 @@ public class MavenTest1
 		e.sendKeys("Praveen");
 		Thread.sleep(1500);
 		e.clear();
+		System.out.println("Inside Browser Method");
 	}
 }
