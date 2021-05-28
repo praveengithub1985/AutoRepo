@@ -1,4 +1,8 @@
 package MavenDemo;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -29,5 +33,19 @@ public class MavenTest1
 	{
 		System.out.println("testPrint5");	
 		//Assert.fail();
+	}
+	@Test
+	public void browser() throws InterruptedException
+	{
+		String key="webdriver.chrome.driver";
+		String value="F:/SeleniumRevisit/SeleniumTraining/Drivers/chromedriver.exe";
+		System.setProperty(key,value);
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://Google.com");
+		Thread.sleep(1500);
+		WebElement e=driver.findElement(By.xpath("//input[@class='gLFyf gsfi']"));
+		e.sendKeys("Praveen");
+		Thread.sleep(1500);
+		e.clear();
 	}
 }
