@@ -44,7 +44,7 @@ public class MavenTest1
 		WebDriver driver=new FirefoxDriver();
 		driver.get("https://Google.com");
 		Thread.sleep(1500);
-		WebElement e=driver.findElement(By.xpath("//input[@clas='gLFyf gsfi']"));
+		WebElement e=driver.findElement(By.xpath("//input[@class='gLFyf gsfi']"));
 		e.sendKeys("Praveen");
 		Thread.sleep(1500);
 		e.clear();
