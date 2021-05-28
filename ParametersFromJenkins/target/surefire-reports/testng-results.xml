@@ -2,45 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="27663" started-at="2021-05-27T23:56:17 CDT" finished-at="2021-05-27T23:56:45 CDT">
+  <suite name="Suite" duration-ms="2700" started-at="2021-05-28T12:35:17 CDT" finished-at="2021-05-28T12:35:20 CDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="27663" started-at="2021-05-27T23:56:17 CDT" finished-at="2021-05-27T23:56:45 CDT">
-      <class name="Yahoo.YahooLogin">
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:Yahoo.YahooLogin@7d907bac]" name="launchBrowser" is-config="true" duration-ms="8863" started-at="2021-05-27T23:56:17 CDT" finished-at="2021-05-27T23:56:26 CDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+    <test name="Test" duration-ms="2700" started-at="2021-05-28T12:35:17 CDT" finished-at="2021-05-28T12:35:20 CDT">
+      <class name="Yahoo.ExtentReportsDemo">
+        <test-method status="PASS" signature="extent()[pri:0, instance:Yahoo.ExtentReportsDemo@6c3708b3]" name="extent" duration-ms="2509" started-at="2021-05-28T12:35:17 CDT" finished-at="2021-05-28T12:35:20 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="loginApp(java.lang.String)[pri:0, instance:Yahoo.YahooLogin@7d907bac]" name="loginApp" duration-ms="12984" started-at="2021-05-27T23:56:26 CDT" finished-at="2021-05-27T23:56:39 CDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://login.yahoo.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginApp -->
-        <test-method status="PASS" signature="closeBrowser(java.lang.String)[pri:0, instance:Yahoo.YahooLogin@7d907bac]" name="closeBrowser" is-config="true" duration-ms="5712" started-at="2021-05-27T23:56:39 CDT" finished-at="2021-05-27T23:56:45 CDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- Yahoo.YahooLogin -->
+        </test-method> <!-- extent -->
+      </class> <!-- Yahoo.ExtentReportsDemo -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
