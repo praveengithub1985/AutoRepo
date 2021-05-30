@@ -11,6 +11,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ExtentReportsDemo 
 {
@@ -20,6 +21,8 @@ public class ExtentReportsDemo
 		ExtentHtmlReporter reporter=new ExtentHtmlReporter("./Reports/FirstReport.html");
 		ExtentReports extent=new ExtentReports();
 		extent.attachReporter(reporter);
+		
+		reporter.config().setTheme(Theme.DARK);
 		
 		ExtentTest logger1=extent.createTest("Yahoo login test1");
 		logger1.log(Status.INFO, "Test1 Information");
@@ -31,7 +34,6 @@ public class ExtentReportsDemo
 		logger2.log(Status.INFO, "Test2 Information");
 		logger2.log(Status.FAIL, "Verificaiton Failed");
 		logger2.fail("Failed Test", MediaEntityBuilder.createScreenCaptureFromPath("F:\\SeleniumRevisit\\GitHub\\Screenshots\\PushBranch.png").build());
-		//logger2.fail(details, provider)
 		extent.flush();		
 		System.out.println("Test2 done");
 		

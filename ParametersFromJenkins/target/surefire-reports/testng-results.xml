@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="2700" started-at="2021-05-28T12:35:17 CDT" finished-at="2021-05-28T12:35:20 CDT">
+  <suite name="Suite" duration-ms="1019" started-at="2021-05-29T08:13:52 CDT" finished-at="2021-05-29T08:13:53 CDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="2700" started-at="2021-05-28T12:35:17 CDT" finished-at="2021-05-28T12:35:20 CDT">
+    <test name="Test" duration-ms="1019" started-at="2021-05-29T08:13:52 CDT" finished-at="2021-05-29T08:13:53 CDT">
       <class name="Yahoo.ExtentReportsDemo">
-        <test-method status="PASS" signature="extent()[pri:0, instance:Yahoo.ExtentReportsDemo@6c3708b3]" name="extent" duration-ms="2509" started-at="2021-05-28T12:35:17 CDT" finished-at="2021-05-28T12:35:20 CDT">
+        <test-method status="PASS" signature="extent()[pri:0, instance:Yahoo.ExtentReportsDemo@6c3708b3]" name="extent" duration-ms="940" started-at="2021-05-29T08:13:53 CDT" finished-at="2021-05-29T08:13:53 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extent -->
